@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(page_title='Citas Médicas', layout='wide')
-df = pd.read_csv('citas_medicas.csv')
+df = pd.read_csv('citas_medicas (1).csv')
 
 st.title('Dashboard de Gestión de Citas Médicas')
 
